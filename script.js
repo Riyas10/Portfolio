@@ -34,3 +34,11 @@ form.addEventListener('submit', (e) => {
   thankYouMessage.classList.add('show');
   setTimeout(() => form.submit(), 2000);
 });
+
+#thank-you-message {
+  display: none;
+}
+
+#thank-you-message.show {
+  display: block;
+}
