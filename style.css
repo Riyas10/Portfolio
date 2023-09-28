@@ -554,3 +554,12 @@
    .contact-button {
      margin-left: 25%;
    }
+  
+// Thank you
+#thank-you-message {
+  display: none;
+}
+
+#thank-you-message.show {
+  display: block;
+}
